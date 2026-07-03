@@ -4,7 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 
 export default function EditarEmpleado() {
   
-    const urlBase = "http://localhost:8080/rrhh-app/empleados";
+    const urlBase = "http://localhost:8081/rrhh-app/empleados";
 
     let navegacion = useNavigate();
 
